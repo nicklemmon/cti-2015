@@ -1,0 +1,59 @@
+section.exposition .container {
+  padding: $default-padding;
+}
+
+.sub-nav {
+  margin-top: -$default-padding*3; /* eliminates padding from .content */
+}
+
+  .sub-nav .col-4 {
+    margin: 0; /* eliminates cutter between each column */
+  }
+
+  .sub-nav h5 {
+    display: block;
+    color: white;
+    max-height: 30px;
+    padding: 5px 20px;
+    background: black;
+    margin-bottom: 0;
+  }
+
+    .sub-nav h5#services {
+      background: $navy-blue;
+    }
+
+    .sub-nav h5#model {
+      background: $carolina-blue;
+    }
+
+    .sub-nav h5#center {
+      background: $dark-gray;
+    }
+
+  .sub-nav img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .sub-nav a.sub-call-to-action {
+    display: block;
+    position: relative;
+    background: gray;
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px 0 10px 40px;
+    width: 160px;
+  }
+
+    .sub-nav a.sub-call-to-action:after {
+      content: "";
+      background: black;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 35px;
+      height: 40px;
+    }

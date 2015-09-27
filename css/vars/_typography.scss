@@ -1,12 +1,25 @@
-/*===== HEADER HIERARCHY =====*/
-
 h1 {
-
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 0;
 }
 
 h2 {
-
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
+
+  h2:after {
+    content: "";
+    margin-top: 20px;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: $navy-blue;
+  }
 
 h3 {
 
@@ -17,5 +30,14 @@ h4 {
 }
 
 h5 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .25px;
+}
 
+main.content p {
+  font-family: $secondary-font-stack;
+  font-size: 1.7rem;
+  color: $medium-gray;
 }

@@ -1,0 +1,89 @@
+/*===== NAVBAR STYLES =====*/
+
+nav {
+  font-family: $primary-font-stack;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding-top: 5px;
+  overflow-y: hidden;
+  //background: rgba(0,0,0,0);
+}
+
+.navbar.transparent.navbar-inverse.navbar-inner {
+   background: rgba(0,0,0,0) !important;
+   border: none;
+}
+
+  .navbar-brand {
+    background-image: url(/images/logo.svg);
+    background-position: 50% 15px;
+    background-size: 160px;
+    width: 180px;
+    background-repeat: no-repeat;
+    @include display(border-box);
+    margin-top: -3px;
+		padding-top: 15px; /* gives a little extra padding to deal with hover effect on the right side of the nav */
+    text-indent: 200%; /* hides text - image replacement technique */
+    white-space: nowrap; /* hides text - image replacement technique */
+    overflow: hidden;
+    border-top: 3px solid rgba(0,0,0,0);
+    @include transition(all $default-transition ease)
+  }
+
+      .navbar-brand:hover,
+      .navbar-brand:visited,
+      .navbar-brand:active {
+        @include transition(all $default-transition ease);
+      }
+
+  .navbar-default {
+    border-bottom: 0px;
+    border-radius: 0px; /* takes away silly rounded corners on the nav */
+  }
+
+      .navbar-nav li a {
+        @include display(border-box);
+        padding-left: 30px;
+        margin-left: 20px;
+        background-size: 20px !important;
+        color: white !important;
+  			border-top: 3px solid rgba(0,0,0,0); /* creates invisible border to remove animation */
+  			margin-top: -3px; /* adjustment to make up for invisible border */
+        @include transition(all $default-transition ease)
+      }
+
+          .navbar-nav li a:hover {
+    				@include transition(all $default-transition ease);
+          }
+
+          .navbar-nav li a .icon {
+            display: inline-block;
+            @include size(100px);
+            background-size: 20px 20px;
+            background-position: center center;
+          }
+
+          .navbar-nav li a .icon.stalker {
+            background: url(/images/icon_person-stalker.svg) no-repeat center;
+          }
+
+          .navbar-nav li a .icon.stats-bars {
+            background: url(/images/icon_stats-bars.svg) no-repeat center;
+          }
+
+          .navbar-nav li a .icon.chat-box {
+            background: url(/images/icon_chatbox.svg) no-repeat center;
+          }
+
+
+/*=== BEGIN NAVBAR MEDIA QUERIES ===*/
+
+/* Smallest devices (phone, 768px and below) */
+@media (max-width: 768px) {
+
+    .navbar-brand {
+
+    }
+
+}

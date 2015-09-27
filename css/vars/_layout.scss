@@ -1,0 +1,16 @@
+.container {
+  @include outer-container;
+  max-width: 1020px;
+}
+
+.col-6 {
+  @include span-columns(6);
+}
+
+.col-4 {
+  @include span-columns(4);
+}
+
+.col-3 {
+  @include span-columns(3);
+}

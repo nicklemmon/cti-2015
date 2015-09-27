@@ -1,0 +1,24 @@
+section.hero {
+  background: url('/images/hero.png') no-repeat center;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+
+  section.hero h1,
+  section.hero p {
+    color: white;
+    @include span-columns(9);
+  }
+
+  section.hero p.subtitle {
+    font-size: 1.8rem;
+  }
+
+  section.hero a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  section.hero a.call-to-action {
+    @include span-columns(6);
+  }

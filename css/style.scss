@@ -16,6 +16,10 @@ html {
   font-size: 62.5%;
 }
 
+main.content {
+  margin-top: -80px;
+  font-family: $primary-font-stack;
+}
 
 /*=== BEGIN GLOBAL MEDIA QUERIES ===*/
 
