@@ -1,0 +1,29 @@
+/* importing Bourbon */
+/* importing Bourbon Neat */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* importing vars index */
+/* importing misc. variables */
+/*== MISC VARIABLES ==*/
+/* importing color variables */
+/*== SASS COLOR VARIABLES ==*/
+/* importing typography */
+/*===== HEADER HIERARCHY =====*/
+/* importing layout */
+/* importing sections index */
+/*===== FOOTER STYLES =====*/
+/*== SASS MIX-INS ==*/
+/*===== GLOBAL STYLES =====*/
+html {
+  font-size: 62.5%;
+}
+
+/*=== BEGIN GLOBAL MEDIA QUERIES ===*/
+/* Smallest devices (phone, 768px and below) */
+/* Small devices (tablets, 768px to 992px) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
