@@ -1,3 +1,21 @@
 aside {
   text-align: center;
+  background: $navy-blue;
+  padding: 7rem;
+  max-height: 28rem;
 }
+
+  aside h2 {
+    color: $carolina-blue !important;
+    margin-bottom: 2rem;
+  }
+
+    aside h2:after {
+      display: none; // disables bar that appears after other h2 elements */
+    }
+
+  aside p {
+    margin: 0 auto; // centering
+    color: white !important;
+    max-width: 42rem;
+  }

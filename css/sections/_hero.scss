@@ -1,13 +1,37 @@
 section.hero {
   background: url('/images/hero.png') no-repeat center;
-  padding-top: 160px;
-  padding-bottom: 80px;
+  background-size: cover;
+  padding-top: 14rem;
+  padding-bottom: 8rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
+
+  section.hero .container {
+    padding: 0 $default-padding;
+  }
+
+  section.hero:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left:41.5%;
+    @include linear-gradient($carolina-blue 90%, $carolina-blue-dark 100%);
+    opacity: 0.9;
+    width: 44rem;
+    height: 60rem;
+    transform: skew(-40deg);
+    z-index: 1;
+  }
 
   section.hero h1,
   section.hero p {
+    position: relative;
     color: white;
-    @include span-columns(9);
+    @include span-columns(8);
+    z-index: 3;
   }
 
   section.hero p.subtitle {
@@ -20,5 +44,29 @@ section.hero {
   }
 
   section.hero a.call-to-action {
-    @include span-columns(6);
+    display: inline-block;
+    position: relative;
+    margin-top: 4rem;
+    max-width: 38rem;
+    //max-height: 6rem;
+    padding: 2rem 3.8rem;
+    background: $carolina-blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border: 2px solid white;
+    @include span-columns(8);
+    z-index: 2;
   }
+
+    section.hero a.call-to-action:after {
+      font-family: 'Ionicons';
+      content: "\f125";
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 2rem 3rem;
+      border-left: 2px solid white;
+      background: $carolina-blue;
+    }

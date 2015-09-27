@@ -2,5 +2,9 @@
 /*===== FOOTER STYLES =====*/
 
 footer {
-
+  display: block;
+  width: 100%;
+  max-height: 28rem;
+  background: $dark-gray;
+  color: white;
 }

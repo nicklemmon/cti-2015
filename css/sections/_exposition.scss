@@ -1,13 +1,17 @@
 section.exposition .container {
   padding: $default-padding;
+  padding-bottom: 10rem;
 }
 
 .sub-nav {
   margin-top: -$default-padding*3; /* eliminates padding from .content */
+  padding-bottom: 30rem;
 }
 
   .sub-nav .col-4 {
     margin: 0; /* eliminates cutter between each column */
+    position: relative;
+    width: 33.33%;
   }
 
   .sub-nav h5 {
@@ -19,15 +23,18 @@ section.exposition .container {
     margin-bottom: 0;
   }
 
-    .sub-nav h5#services {
+    .sub-nav h5#services,
+    a.sub-call-to-action[href="/contact"] {
       background: $navy-blue;
     }
 
-    .sub-nav h5#model {
-      background: $carolina-blue;
+    .sub-nav h5#model,
+    a.sub-call-to-action[href="/themodel"] {
+      background: $carolina-blue-dark;
     }
 
-    .sub-nav h5#center {
+    .sub-nav h5#center,
+    a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]  {
       background: $dark-gray;
     }
 
@@ -38,8 +45,9 @@ section.exposition .container {
 
   .sub-nav a.sub-call-to-action {
     display: block;
-    position: relative;
-    background: gray;
+    position: absolute;
+    right: 0;
+    bottom: -2rem;
     color: white;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -49,11 +57,13 @@ section.exposition .container {
   }
 
     .sub-nav a.sub-call-to-action:after {
-      content: "";
-      background: black;
+      font-family: 'Ionicons';
+      content: "\f125";
+      background: $carolina-blue;
       position: absolute;
       right: 0;
       top: 0;
-      width: 35px;
-      height: 40px;
+      padding: 1rem 1.3rem;
+      width: 3.5rem;
+      height: 4rem;
     }
