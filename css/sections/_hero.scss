@@ -9,7 +9,7 @@ section.hero {
 }
 
   section.hero .container {
-    padding: 0 $default-padding;
+    padding: 0 $default-padding*2;
   }
 
   section.hero:after {
@@ -17,10 +17,11 @@ section.hero {
     display: block;
     position: absolute;
     top: 0;
-    left:41.5%;
-    @include linear-gradient($carolina-blue 90%, $carolina-blue-dark 100%);
-    opacity: 0.9;
-    width: 44rem;
+    left: 38%;
+    //@include linear-gradient($carolina-blue 90%, $carolina-blue-dark 100%);
+    background: $carolina-blue-dark;
+    opacity: 0.8;
+    width: 60rem;
     height: 60rem;
     transform: skew(-40deg);
     z-index: 1;
