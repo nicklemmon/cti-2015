@@ -21,6 +21,10 @@ main.content {
   font-family: $primary-font-stack;
 }
 
+span.hidden-text {
+  margin-left: -9999px;
+}
+
 /*=== BEGIN GLOBAL MEDIA QUERIES ===*/
 
 /* Smallest devices (phone, 768px and below) */

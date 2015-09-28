@@ -15,6 +15,16 @@ nav {
    padding: 0;
 }
 
+  .navbar.transparent.navbar-inverse.navbar-inner .container {
+    padding: 0 $default-padding;
+  }
+
+  .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: .5rem;
+  }
+
   .navbar-brand {
     background-image: url(/images/logo.svg);
     background-position: 50% 2rem;
@@ -22,7 +32,6 @@ nav {
     width: 20rem;
     background-repeat: no-repeat;
     @include display(border-box);
-    margin-top: -3px;
 		padding-top: 15px; /* gives a little extra padding to deal with hover effect on the right side of the nav */
     text-indent: 200%; /* hides text - image replacement technique */
     white-space: nowrap; /* hides text - image replacement technique */

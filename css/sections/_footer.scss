@@ -13,3 +13,20 @@ footer {
     width: 100%;
     color: $medium-gray;
   }
+
+    footer a.logo {
+      display: block;
+      width: 100%;
+      background-size: 100% !important;
+
+    }
+
+      footer a.logo.cecmh {
+        background: url('/images/logo_cecmh.png') no-repeat center;
+        height: 4.5rem;
+      }
+
+      footer a.logo.unc {
+        background: url('/images/logo_unc.png') no-repeat center;
+        height: 7rem;
+      }
