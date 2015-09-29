@@ -48,7 +48,7 @@ section.exposition .container {
       }
 
         a.sub-call-to-action[href="/contact"]:hover {
-          @include sub-btn(lighten($navy-blue, 5%));
+          @include sub-btn(darken($navy-blue, 5%));
         }
 
     .sub-nav h5#model,
@@ -61,7 +61,7 @@ section.exposition .container {
       }
 
         a.sub-call-to-action[href="/themodel"]:hover {
-          @include sub-btn(lighten($carolina-blue-dark, 5%));
+          @include sub-btn(darken($carolina-blue-dark, 5%));
         }
 
     .sub-nav h5#center,
@@ -74,7 +74,7 @@ section.exposition .container {
       }
 
         a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]:hover {
-          @include sub-btn(lighten($dark-gray, 5%));
+          @include sub-btn(darken($dark-gray, 5%));
         }
 
 
@@ -92,7 +92,7 @@ section.exposition .container {
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 3.5rem;
     width: 160px;
     @include transition(all $default-transition ease);
   }

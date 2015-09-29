@@ -5,6 +5,15 @@ aside {
   max-height: 28rem;
 }
 
+@media (max-width: $smallest-screen-width) {
+
+  aside {
+    max-height: 40rem;
+    padding: 10rem 5rem;
+  }
+
+}
+
   aside h3 {
     color: $carolina-blue !important;
     margin-top: 0;

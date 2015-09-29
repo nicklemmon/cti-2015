@@ -8,8 +8,25 @@ section.hero {
   z-index: 0;
 }
 
+  @media (max-width: $smallest-screen-width) {
+
+    section.hero {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+
+  }
+
   section.hero .container {
     padding: 0 $default-padding*2;
+  }
+
+  @media (max-width: $smallest-screen-width) {
+
+    section.hero .container {
+      padding: 0 $default-padding;
+    }
+
   }
 
   section.hero:after { // angled shape in the background
@@ -59,7 +76,6 @@ section.hero {
     max-width: 36rem;
     padding: 2rem 3.8rem 2.4rem 4rem;
     background: $green;
-    //@include background(linear-gradient($green-dark 0%, $green 100%));
     text-shadow: 0 .3rem 1rem darken($green-dark, 5%);
     box-shadow: inset 0 -.6rem $green-dark;
     text-transform: uppercase;
@@ -85,6 +101,35 @@ section.hero {
       //@include background(linear-gradient($green-dark 0%, $green 100%));
       text-shadow: 0 .3rem 1rem darken($green-dark, 5%);
       box-shadow: inset 0 -.6rem $green-dark;
+    }
+
+    @media (max-width: $smallest-screen-width) {
+
+      section.hero a.call-to-action {
+        @include span-columns(12);
+        max-width: 100%;
+      }
+
+    }
+
+    @media (max-width: 45rem) {
+
+      section.hero a.call-to-action {
+        text-align: center;
+      }
+
+      section.hero a.call-to-action:after {
+        display: none;
+      }
+
+    }
+
+    @media (max-width: 25rem) {
+
+      section.hero a.call-to-action {
+        padding: 1.5rem 1rem 1.5rem 1rem;
+      }
+
     }
 
   section.hero a.call-to-action:hover {

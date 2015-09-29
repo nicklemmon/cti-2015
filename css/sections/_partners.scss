@@ -1,6 +1,7 @@
 section.partners {
   padding-top: 10rem;
   padding-bottom: 14rem;
+  height: 53rem;
 }
 
   section.partners .col-4 { // eliminates gutter space between columns
@@ -56,6 +57,7 @@ section.partners {
         background-repeat: no-repeat !important;
         background-size: 80% !important;
         background-position: center !important;
+        @include transition(all $default-transition ease);
       }
 
         a.partner-link#cardinal-innovations {
@@ -70,11 +72,19 @@ section.partners {
           @include background(url("/images/logo_kbr.png"), center $light-gray);
         }
 
+        a.partner-link:hover {
+          height: 24rem;
+        }
+
     @media (max-width: $smallest-screen-width) {
 
       a.partner-link {
         background-size: 50% !important;
         margin-bottom: 0;
       }
+
+        a.partner-link:hover { // disables growing hover effect on single column layout
+          height: 19rem;
+        }
 
     }

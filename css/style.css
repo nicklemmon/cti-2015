@@ -20,6 +20,11 @@ h1 {
   margin-bottom: 0;
 }
 
+@media (max-width: 50rem) {
+  h1 {
+    font-size: 3rem;
+  }
+}
 h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -179,7 +184,7 @@ nav {
 
 .navbar-brand {
   background-image: url(/images/logo.svg);
-  background-position: 50% 2rem;
+  background-position: 50% 1rem;
   background-size: 18rem;
   width: 20rem;
   background-repeat: no-repeat;
@@ -206,28 +211,41 @@ nav {
 }
 
 .navbar-default {
-  border-bottom: 0px;
-  border-radius: 0px;
+  border-bottom: 0;
+  border-radius: 0;
   /* takes away silly rounded corners on the nav */
 }
 
 .navbar-nav li a {
   display: border-box;
-  margin-left: 2rem;
+  margin-left: 4rem;
   background-size: 20px !important;
   color: white !important;
   border-top: 3px solid transparent;
   /* creates invisible border to remove animation */
   margin-top: -3px;
   /* adjustment to make up for invisible border */
-  padding-bottom: 5px;
+  padding: 1rem 0;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
-.navbar-nav li a:hover {
-  border-bottom: 1px solid white;
+.navbar-nav li a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: .1rem;
+  background: white;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-nav li a:hover:after {
+  height: .4rem;
 }
 
 .navbar-nav li a i.icon {
@@ -247,10 +265,21 @@ section.hero {
   z-index: 0;
 }
 
+@media (max-width: 50rem) {
+  section.hero {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
 section.hero .container {
   padding: 0 4rem;
 }
 
+@media (max-width: 50rem) {
+  section.hero .container {
+    padding: 0 2rem;
+  }
+}
 section.hero:after {
   content: "";
   display: block;
@@ -345,6 +374,32 @@ section.hero a.call-to-action:after {
   box-shadow: inset 0 -0.6rem #45a044;
 }
 
+@media (max-width: 50rem) {
+  section.hero a.call-to-action {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    max-width: 100%;
+  }
+  section.hero a.call-to-action:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 45rem) {
+  section.hero a.call-to-action {
+    text-align: center;
+  }
+
+  section.hero a.call-to-action:after {
+    display: none;
+  }
+}
+@media (max-width: 25rem) {
+  section.hero a.call-to-action {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+  }
+}
 section.hero a.call-to-action:hover {
   background: #5eba5d;
   -webkit-transition: all 0.2s ease;
@@ -397,8 +452,8 @@ a.sub-call-to-action[href="/contact"] {
 }
 
 a.sub-call-to-action[href="/contact"]:hover {
-  background: #0e243a;
-  box-shadow: 0 0.4rem 0 #22578c;
+  background: #040a10;
+  box-shadow: 0 0.4rem 0 #183d63;
   border-radius: 0 0 .5rem .5rem;
 }
 
@@ -414,8 +469,8 @@ a.sub-call-to-action[href="/themodel"] {
 }
 
 a.sub-call-to-action[href="/themodel"]:hover {
-  background: #74a2c3;
-  box-shadow: 0 0.4rem 0 #bbd1e2;
+  background: #508ab3;
+  box-shadow: 0 0.4rem 0 #97bad2;
   border-radius: 0 0 .5rem .5rem;
 }
 
@@ -431,8 +486,8 @@ a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"] {
 }
 
 a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]:hover {
-  background: #323232;
-  box-shadow: 0 0.4rem 0 #656565;
+  background: #181818;
+  box-shadow: 0 0.4rem 0 #4b4b4b;
   border-radius: 0 0 .5rem .5rem;
 }
 
@@ -450,7 +505,7 @@ a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]:hover {
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 300;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 1rem 3.5rem;
   width: 160px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -496,6 +551,12 @@ aside {
   max-height: 28rem;
 }
 
+@media (max-width: 50rem) {
+  aside {
+    max-height: 40rem;
+    padding: 10rem 5rem;
+  }
+}
 aside h3 {
   color: #7bafd4 !important;
   margin-top: 0;
@@ -515,6 +576,7 @@ aside p {
 section.partners {
   padding-top: 10rem;
   padding-bottom: 14rem;
+  height: 53rem;
 }
 
 section.partners .col-4 {
@@ -567,6 +629,9 @@ a.partner-link {
   background-repeat: no-repeat !important;
   background-size: 80% !important;
   background-position: center !important;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 a.partner-link#cardinal-innovations {
@@ -584,10 +649,18 @@ a.partner-link#kbr {
   background: url("/images/logo_kbr.png"), center #dedede;
 }
 
+a.partner-link:hover {
+  height: 24rem;
+}
+
 @media (max-width: 50rem) {
   a.partner-link {
     background-size: 50% !important;
     margin-bottom: 0;
+  }
+
+  a.partner-link:hover {
+    height: 19rem;
   }
 }
 footer {
@@ -624,7 +697,7 @@ footer a.logo {
 
 footer a.logo.cecmh {
   background: url("/images/logo_cecmh.png") no-repeat center;
-  height: 4.5rem;
+  height: 5rem;
 }
 
 footer a.logo.unc {

@@ -27,7 +27,7 @@ nav {
 
   .navbar-brand {
     background-image: url(/images/logo.svg);
-    background-position: 50% 2rem;
+    background-position: 50% 1rem;
     background-size: 18rem;
     width: 20rem;
     background-repeat: no-repeat;
@@ -47,23 +47,34 @@ nav {
       }
 
   .navbar-default {
-    border-bottom: 0px;
-    border-radius: 0px; /* takes away silly rounded corners on the nav */
+    border-bottom: 0;
+    border-radius: 0; /* takes away silly rounded corners on the nav */
   }
 
       .navbar-nav li a {
         @include display(border-box);
-        margin-left: 2rem;
+        margin-left: 4rem;
         background-size: 20px !important;
         color: white !important;
   			border-top: 3px solid rgba(0,0,0,0); /* creates invisible border to remove animation */
   			margin-top: -3px; /* adjustment to make up for invisible border */
-        padding-bottom: 5px;
-        @include transition(all $default-transition ease)
+        padding: 1rem 0;
+        @include transition(all $default-transition ease);
       }
 
-          .navbar-nav li a:hover {
-            border-bottom: 1px solid white;
+        .navbar-nav li a:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0%;
+          width: 100%;
+          height: .1rem;
+          background: white;
+          @include transition(all $default-transition ease);
+        }
+
+          .navbar-nav li a:hover:after {
+            height: .4rem;
           }
 
           .navbar-nav li a i.icon {
