@@ -5,6 +5,16 @@ footer {
   padding: 7rem 2rem 4rem 2rem;
 }
 
+  @media (max-width: $smallest-screen-width) {
+
+    footer .col-3 {
+
+      margin-top: $default-padding*2;
+
+    }
+
+  }
+
   footer a {
     display: inline-block;
     margin-bottom: 1.5rem;
@@ -14,11 +24,18 @@ footer {
     color: $medium-gray;
   }
 
+  @media (max-width: $smallest-screen-width) {
+
+    footer a {
+      font-size: 2rem;
+    }
+
+  }
+
     footer a.logo {
       display: block;
       width: 100%;
       background-size: 100% !important;
-
     }
 
       footer a.logo.cecmh {
@@ -30,3 +47,19 @@ footer {
         background: url('/images/logo_unc.png') no-repeat center;
         height: 7rem;
       }
+
+    @media (max-width: $smallest-screen-width) {
+
+      footer a.logo {
+        background-size: 40% !important;
+      }
+
+      footer a.logo.cecmh {
+        height: 6rem;
+      }
+
+      footer a.logo.unc {
+        height: 10rem;
+      }
+
+    }

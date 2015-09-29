@@ -14,29 +14,57 @@ section.exposition .container {
     width: 33.33%;
   }
 
+  @media (max-width: $smallest-screen-width) {
+
+    .sub-nav .col-4 {
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+
+  }
+
   .sub-nav h5 {
     display: block;
     color: white;
-    max-height: 30px;
-    padding: 5px 20px;
+    max-height: 3rem;
+    padding: .5rem 2rem;
     background: black;
     margin-bottom: 0;
   }
+
+    @mixin sub-btn($color) {
+      background: $color;
+      box-shadow: 0 .4rem 0 lighten($color, 20%);
+      border-radius: 0 0 .5rem .5rem;
+    }
 
     .sub-nav h5#services,
     a.sub-call-to-action[href="/contact"] {
       background: $navy-blue;
     }
 
+      a.sub-call-to-action[href="/contact"] {
+        @include sub-btn($navy-blue);
+      }
+
     .sub-nav h5#model,
     a.sub-call-to-action[href="/themodel"] {
       background: $carolina-blue-dark;
     }
 
+      a.sub-call-to-action[href="/themodel"] {
+        @include sub-btn($carolina-blue-dark);
+      }
+
     .sub-nav h5#center,
     a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]  {
       background: $dark-gray;
     }
+
+      a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"] {
+        @include sub-btn($dark-gray);
+      }
+
 
   .sub-nav img {
     display: block;
@@ -52,18 +80,35 @@ section.exposition .container {
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 10px 0 10px 40px;
+    padding: 1rem 0 1rem 4rem;
     width: 160px;
   }
 
     .sub-nav a.sub-call-to-action:after {
       font-family: 'Ionicons';
       content: "\f125";
-      background: $carolina-blue;
       position: absolute;
       right: 0;
       top: 0;
       padding: 1rem 1.3rem;
       width: 3.5rem;
       height: 4rem;
+      @include sub-btn($carolina-blue);
+      border-radius: 0 0 .5rem 0;
     }
+
+  @media (max-width: $smallest-screen-width) {
+
+    .sub-nav a.sub-call-to-action {
+      width: 100%;
+      font-size: 1.8rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+      .sub-nav a.sub-call-to-action:after {
+        padding: 2rem 4rem;
+        height: 6.5rem;
+      }
+
+  }
