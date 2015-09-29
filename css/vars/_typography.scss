@@ -22,10 +22,6 @@ h2 {
   }
 
 h3 {
-
-}
-
-h4 {
   margin-top: 0;
   font-weight: 200;
   text-transform: uppercase;
@@ -34,7 +30,7 @@ h4 {
   font-size: 1.6rem;
 }
 
-  h4:after {
+  h3:after {
     content: "";
     margin-top: 2rem;
     display: block;
@@ -43,14 +39,14 @@ h4 {
     background: $carolina-blue;
   }
 
-h5 {
+h4 {
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .25px;
 }
 
-h6 {
+h5 {
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;

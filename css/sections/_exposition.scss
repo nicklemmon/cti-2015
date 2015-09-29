@@ -47,6 +47,10 @@ section.exposition .container {
         @include sub-btn($navy-blue);
       }
 
+        a.sub-call-to-action[href="/contact"]:hover {
+          @include sub-btn(lighten($navy-blue, 5%));
+        }
+
     .sub-nav h5#model,
     a.sub-call-to-action[href="/themodel"] {
       background: $carolina-blue-dark;
@@ -56,6 +60,10 @@ section.exposition .container {
         @include sub-btn($carolina-blue-dark);
       }
 
+        a.sub-call-to-action[href="/themodel"]:hover {
+          @include sub-btn(lighten($carolina-blue-dark, 5%));
+        }
+
     .sub-nav h5#center,
     a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]  {
       background: $dark-gray;
@@ -64,6 +72,10 @@ section.exposition .container {
       a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"] {
         @include sub-btn($dark-gray);
       }
+
+        a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]:hover {
+          @include sub-btn(lighten($dark-gray, 5%));
+        }
 
 
   .sub-nav img {
@@ -80,9 +92,14 @@ section.exposition .container {
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 1rem 0 1rem 4rem;
+    padding: 1rem 2rem 1rem 2rem;
     width: 160px;
+    @include transition(all $default-transition ease);
   }
+
+    .sub-nav a.sub-call-to-action:hover {
+      text-decoration: none;
+    }
 
     .sub-nav a.sub-call-to-action:after {
       font-family: 'Ionicons';

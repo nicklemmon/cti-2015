@@ -5,13 +5,13 @@ aside {
   max-height: 28rem;
 }
 
-  aside h2 {
+  aside h3 {
     color: $carolina-blue !important;
     margin-top: 0;
     margin-bottom: 2rem;
   }
 
-    aside h2:after {
+    aside h3:after {
       display: none; // disables bar that appears after other h2 elements */
     }
 

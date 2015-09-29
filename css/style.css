@@ -1,1 +1,667 @@
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}h1{font-size:4.2rem;text-transform:uppercase;font-weight:700;line-height:110%;margin-bottom:0}h2{font-size:1.8rem;text-transform:uppercase;font-weight:600}h2:after{content:"";margin-top:2rem;display:block;width:3rem;height:.2rem;background:#091725}h4{margin-top:0;font-weight:200;text-transform:uppercase;color:#7bafd4;letter-spacing:1px;font-size:1.6rem}h4:after{content:"";margin-top:2rem;display:block;width:1.5rem;height:.1rem;background:#7bafd4}h5{font-size:1.4rem;text-transform:uppercase;font-weight:600;letter-spacing:.25px}h6{font-size:1.4rem;font-weight:700;text-transform:uppercase;letter-spacing:.25px;margin:0;margin-bottom:3rem}main.content p{font-family:"Gentium Basic",serif;font-size:1.7rem;color:#787878}.container{max-width:68em;margin-left:auto;margin-right:auto;max-width:1020px !important}.container:after{content:"";display:table;clear:both}.col-6{float:left;display:block;margin-right:2.35765%;width:48.82117%}.col-6:last-child{margin-right:0}.col-4{float:left;display:block;margin-right:2.35765%;width:31.76157%}.col-4:last-child{margin-right:0}.col-3{float:left;display:block;margin-right:2.35765%;width:23.23176%}.col-3:last-child{margin-right:0}@media (max-width: 76.8rem){.col-3{float:left;display:block;margin-right:2.35765%;width:100%}.col-3:last-child{margin-right:0}.col-4{float:left;display:block;margin-right:2.35765%;width:100%}.col-4:last-child{margin-right:0}.col-6{float:left;display:block;margin-right:2.35765%;width:100%}.col-6:last-child{margin-right:0}}nav{font-family:"Open Sans",sans-serif;color:white;text-transform:uppercase;font-size:1.4rem;padding-top:.5rem;overflow-y:hidden;position:relative;z-index:3}.navbar.transparent.navbar-inverse.navbar-inner{background:transparent !important;border:none;padding:0}.navbar.transparent.navbar-inverse.navbar-inner .container{padding:0 2rem}.navbar-collapse{margin-left:0;margin-right:0;margin-top:.5rem}.navbar-brand{background-image:url(/images/logo.svg);background-position:50% 2rem;-webkit-background-size:18rem;background-size:18rem;width:20rem;background-repeat:no-repeat;display:border-box;padding-top:15px;text-indent:200%;white-space:nowrap;overflow:hidden;border-top:3px solid transparent;-webkit-transition:all 0.2s ease;transition:all 0.2s ease}.navbar-brand:hover,.navbar-brand:visited,.navbar-brand:active{-webkit-transition:all 0.2s ease;transition:all 0.2s ease}.navbar-default{border-bottom:0px;border-radius:0px}.navbar-nav li a{display:border-box;padding-left:3rem;margin-left:.8rem;-webkit-background-size:20px !important;background-size:20px !important;color:white !important;border-top:3px solid transparent;margin-top:-3px;-webkit-transition:all 0.2s ease;transition:all 0.2s ease}.navbar-nav li a:hover{-webkit-transition:all 0.2s ease;transition:all 0.2s ease}.navbar-nav li a i.icon{font-size:2rem;margin-right:1rem}section.hero{background:url("/images/hero.png") no-repeat center;-webkit-background-size:cover;background-size:cover;padding-top:14rem;padding-bottom:14rem;position:relative;overflow:hidden;z-index:0}section.hero .container{padding:0 4rem}section.hero:after{content:"";display:block;position:absolute;top:0;left:40%;background:#6296bb;background-color:#7bafd4;background-image:-webkit-linear-gradient(#7bafd4 90%,#6296bb 100%);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(90%, #7bafd4), to(#6296bb));background-image:-webkit-linear-gradient(#7bafd4 90%, #6296bb 100%);background-image:linear-gradient(#7bafd4 90%,#6296bb 100%);opacity:0.8;width:50%;height:66rem;-webkit-transform:skew(-40deg);-ms-transform:skew(-40deg);transform:skew(-40deg);z-index:1}section.hero h1,section.hero p{position:relative;color:white;float:left;display:block;margin-right:2.35765%;width:74.41059%;z-index:3}section.hero h1:last-child,section.hero p:last-child{margin-right:0}@media (max-width: 50rem){section.hero h1,section.hero p{float:left;display:block;margin-right:2.35765%;width:100%}section.hero h1:last-child,section.hero p:last-child{margin-right:0}}section.hero p.subtitle{font-size:1.8rem}section.hero a{color:white;text-decoration:underline}section.hero a.call-to-action{display:inline-block;position:relative;max-width:36rem;padding:2rem 3.8rem 2.4rem 4rem;background:#4db24c;text-shadow:0 0.3rem 1rem #3e8e3d;-webkit-box-shadow:inset 0 -0.6rem #45a044;box-shadow:inset 0 -0.6rem #45a044;text-transform:uppercase;text-decoration:none;font-weight:400;font-size:1.4rem;border-radius:1rem;float:left;display:block;margin-right:2.35765%;width:65.88078%;z-index:2;-webkit-transition:all 0.2s ease;transition:all 0.2s ease}section.hero a.call-to-action:last-child{margin-right:0}section.hero a.call-to-action:after{font-family:'Ionicons';content:"\f125";position:absolute;right:0;top:0;padding:2rem 3rem 2.4rem 3rem;border-left:2px solid #45a044;border-radius:0 1rem 1rem 0;background:#4db24c;text-shadow:0 0.3rem 1rem #3e8e3d;-webkit-box-shadow:inset 0 -0.6rem #45a044;box-shadow:inset 0 -0.6rem #45a044}section.hero a.call-to-action:hover{background:#5eba5d;-webkit-transition:all 0.2s ease;transition:all 0.2s ease}section.exposition .container{padding:2rem;padding-bottom:10rem}.sub-nav{margin-top:-6rem;padding-bottom:30rem}.sub-nav .col-4{margin:0;position:relative;width:33.33%}@media (max-width: 50rem){.sub-nav .col-4{width:100%;margin-bottom:4rem}}.sub-nav h5{display:block;color:white;max-height:3rem;padding:.5rem 2rem;background:black;margin-bottom:0}.sub-nav h5#services,a.sub-call-to-action[href="/contact"]{background:#091725}a.sub-call-to-action[href="/contact"]{background:#091725;-webkit-box-shadow:0 0.4rem 0 #1d4a77;box-shadow:0 0.4rem 0 #1d4a77;border-radius:0 0 .5rem .5rem}.sub-nav h5#model,a.sub-call-to-action[href="/themodel"]{background:#6296bb}a.sub-call-to-action[href="/themodel"]{background:#6296bb;-webkit-box-shadow:0 0.4rem 0 #a9c6da;box-shadow:0 0.4rem 0 #a9c6da;border-radius:0 0 .5rem .5rem}.sub-nav h5#center,a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]{background:#252525}a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]{background:#252525;-webkit-box-shadow:0 0.4rem 0 #585858;box-shadow:0 0.4rem 0 #585858;border-radius:0 0 .5rem .5rem}.sub-nav img{display:block;max-width:100%}.sub-nav a.sub-call-to-action{display:block;position:absolute;right:0;bottom:-2rem;color:white;font-size:1.4rem;text-transform:uppercase;font-weight:300;padding:1rem 0 1rem 4rem;width:160px}.sub-nav a.sub-call-to-action:after{font-family:'Ionicons';content:"\f125";position:absolute;right:0;top:0;padding:1rem 1.3rem;width:3.5rem;height:4rem;background:#7bafd4;-webkit-box-shadow:0 0.4rem 0 #c8deed;box-shadow:0 0.4rem 0 #c8deed;border-radius:0 0 .5rem .5rem;border-radius:0 0 .5rem 0}@media (max-width: 50rem){.sub-nav a.sub-call-to-action{width:100%;font-size:1.8rem;padding:2rem;text-align:center}.sub-nav a.sub-call-to-action:after{padding:2rem 4rem;height:6.5rem}}aside{text-align:center;background:#091725;padding:10rem;max-height:28rem}aside h2{color:#7bafd4 !important;margin-top:0;margin-bottom:2rem}aside h2:after{display:none}aside p{margin:0 auto;color:white !important;max-width:42rem}section.partners{padding-top:10rem;padding-bottom:14rem}section.partners .col-4{width:33.33%;margin:0}@media (max-width: 50rem){section.partners .col-4{width:100%;padding:0}}section.partners h4{margin-top:0;text-align:center}section.partners h4:after{margin:2rem auto}section.partners h5{display:block;text-align:center;color:white;max-height:30px;width:100%;padding:.5rem 2rem;margin-top:0;margin-bottom:0}section.partners h5#cardinal-innovations{background:#252525}section.partners h5#ncdhhs{background:#7bafd4}section.partners h5#kbr{background:#091725}a.partner-link{display:block;width:100%;height:19rem;background-repeat:no-repeat !important;-webkit-background-size:80% !important;background-size:80% !important;background-position:center !important}a.partner-link#cardinal-innovations{background:url("/images/logo_cardinal-innovations.png"),center #dedede;background:url("/images/logo_cardinal-innovations.png"),center #dedede}a.partner-link#ncdhhs{background:url("/images/logo_ncdhhs.png"),center #dedede;background:url("/images/logo_ncdhhs.png"),center #dedede}a.partner-link#kbr{background:url("/images/logo_kbr.png"),center #dedede;background:url("/images/logo_kbr.png"),center #dedede}@media (max-width: 50rem){a.partner-link{-webkit-background-size:50% !important;background-size:50% !important;margin-bottom:0}}footer{display:block;background:#252525;color:white;padding:7rem 2rem 4rem 2rem}@media (max-width: 50rem){footer .col-3{margin-top:4rem}}footer a{display:inline-block;margin-bottom:1.5rem;font-family:"Gentium Basic",serif;font-size:1.6rem;width:100%;color:#787878}@media (max-width: 50rem){footer a{font-size:2rem}}footer a.logo{display:block;width:100%;-webkit-background-size:100% !important;background-size:100% !important}footer a.logo.cecmh{background:url("/images/logo_cecmh.png") no-repeat center;height:4.5rem}footer a.logo.unc{background:url("/images/logo_unc.png") no-repeat center;height:7rem}@media (max-width: 50rem){footer a.logo{-webkit-background-size:40% !important;background-size:40% !important}footer a.logo.cecmh{height:6rem}footer a.logo.unc{height:10rem}}html{font-size:62.5%}main.content{margin-top:-80px;font-family:"Open Sans",sans-serif}span.hidden-text{margin-left:-9999px}
+/* importing Bourbon */
+/* importing Bourbon Neat */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* importing vars index */
+/* importing misc. variables */
+/*== MISC VARIABLES ==*/
+/* importing color variables */
+/*== SASS COLOR VARIABLES ==*/
+/* importing typography */
+h1 {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h2:after {
+  content: "";
+  margin-top: 2rem;
+  display: block;
+  width: 3rem;
+  height: .2rem;
+  background: #091725;
+}
+
+h3 {
+  margin-top: 0;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #7bafd4;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
+
+h3:after {
+  content: "";
+  margin-top: 2rem;
+  display: block;
+  width: 1.5rem;
+  height: .1rem;
+  background: #7bafd4;
+}
+
+h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .25px;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .25px;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+main.content p {
+  font-family: "Gentium Basic", serif;
+  font-size: 1.7rem;
+  color: #787878;
+}
+
+/* importing layout */
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1020px !important;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-6 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+.col-6:last-child {
+  margin-right: 0;
+}
+
+.col-4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+.col-4:last-child {
+  margin-right: 0;
+}
+
+.col-3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+.col-3:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 76.8rem) {
+  .col-3 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .col-3:last-child {
+    margin-right: 0;
+  }
+
+  .col-4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .col-4:last-child {
+    margin-right: 0;
+  }
+
+  .col-6 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .col-6:last-child {
+    margin-right: 0;
+  }
+}
+/* importing sections index */
+nav {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding-top: .5rem;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 3;
+}
+
+.navbar.transparent.navbar-inverse.navbar-inner {
+  background: transparent !important;
+  border: none;
+  padding: 0;
+}
+
+.navbar.transparent.navbar-inverse.navbar-inner .container {
+  padding: 0 2rem;
+}
+
+.navbar-collapse {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: .5rem;
+}
+
+.navbar-brand {
+  background-image: url(/images/logo.svg);
+  background-position: 50% 2rem;
+  background-size: 18rem;
+  width: 20rem;
+  background-repeat: no-repeat;
+  display: border-box;
+  padding-top: 15px;
+  /* gives a little extra padding to deal with hover effect on the right side of the nav */
+  text-indent: 200%;
+  /* hides text - image replacement technique */
+  white-space: nowrap;
+  /* hides text - image replacement technique */
+  overflow: hidden;
+  border-top: 3px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-brand:hover,
+.navbar-brand:visited,
+.navbar-brand:active {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-default {
+  border-bottom: 0px;
+  border-radius: 0px;
+  /* takes away silly rounded corners on the nav */
+}
+
+.navbar-nav li a {
+  display: border-box;
+  margin-left: 2rem;
+  background-size: 20px !important;
+  color: white !important;
+  border-top: 3px solid transparent;
+  /* creates invisible border to remove animation */
+  margin-top: -3px;
+  /* adjustment to make up for invisible border */
+  padding-bottom: 5px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.navbar-nav li a i.icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+/*=== BEGIN NAVBAR MEDIA QUERIES ===*/
+/* Smallest devices (phone, 768px and below) */
+section.hero {
+  background: url("/images/hero.png") no-repeat center;
+  background-size: cover;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+section.hero .container {
+  padding: 0 4rem;
+}
+
+section.hero:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  background: #6296bb;
+  background-color: #7bafd4;
+  background-image: -webkit-linear-gradient(#7bafd4 90%, #6296bb 100%);
+  background-image: linear-gradient(#7bafd4 90%, #6296bb 100%);
+  opacity: 0.8;
+  width: 50%;
+  height: 66rem;
+  transform: skew(-40deg);
+  z-index: 1;
+}
+
+section.hero h1,
+section.hero p {
+  position: relative;
+  color: white;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  z-index: 3;
+}
+section.hero h1:last-child,
+section.hero p:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 50rem) {
+  section.hero h1,
+  section.hero p {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  section.hero h1:last-child,
+  section.hero p:last-child {
+    margin-right: 0;
+  }
+}
+section.hero p.subtitle {
+  font-size: 1.8rem;
+}
+
+section.hero a {
+  color: white;
+  text-decoration: underline;
+}
+
+section.hero a.call-to-action {
+  display: inline-block;
+  position: relative;
+  max-width: 36rem;
+  padding: 2rem 3.8rem 2.4rem 4rem;
+  background: #4db24c;
+  text-shadow: 0 0.3rem 1rem #3e8e3d;
+  box-shadow: inset 0 -0.6rem #45a044;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  z-index: 2;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+section.hero a.call-to-action:last-child {
+  margin-right: 0;
+}
+
+section.hero a.call-to-action:after {
+  font-family: 'Ionicons';
+  content: "\f125";
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem 3rem 2.4rem 3rem;
+  border-left: 2px solid #45a044;
+  border-radius: 0 1rem 1rem 0;
+  background: #4db24c;
+  text-shadow: 0 0.3rem 1rem #3e8e3d;
+  box-shadow: inset 0 -0.6rem #45a044;
+}
+
+section.hero a.call-to-action:hover {
+  background: #5eba5d;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+section.exposition .container {
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.sub-nav {
+  margin-top: -6rem;
+  /* eliminates padding from .content */
+  padding-bottom: 30rem;
+}
+
+.sub-nav .col-4 {
+  margin: 0;
+  /* eliminates cutter between each column */
+  position: relative;
+  width: 33.33%;
+}
+
+@media (max-width: 50rem) {
+  .sub-nav .col-4 {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+.sub-nav h5 {
+  display: block;
+  color: white;
+  max-height: 3rem;
+  padding: .5rem 2rem;
+  background: black;
+  margin-bottom: 0;
+}
+
+.sub-nav h5#services,
+a.sub-call-to-action[href="/contact"] {
+  background: #091725;
+}
+
+a.sub-call-to-action[href="/contact"] {
+  background: #091725;
+  box-shadow: 0 0.4rem 0 #1d4a77;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+a.sub-call-to-action[href="/contact"]:hover {
+  background: #0e243a;
+  box-shadow: 0 0.4rem 0 #22578c;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.sub-nav h5#model,
+a.sub-call-to-action[href="/themodel"] {
+  background: #6296bb;
+}
+
+a.sub-call-to-action[href="/themodel"] {
+  background: #6296bb;
+  box-shadow: 0 0.4rem 0 #a9c6da;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+a.sub-call-to-action[href="/themodel"]:hover {
+  background: #74a2c3;
+  box-shadow: 0 0.4rem 0 #bbd1e2;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.sub-nav h5#center,
+a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"] {
+  background: #252525;
+}
+
+a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"] {
+  background: #252525;
+  box-shadow: 0 0.4rem 0 #585858;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+a.sub-call-to-action[href="http://www.med.unc.edu/psych/cecmh"]:hover {
+  background: #323232;
+  box-shadow: 0 0.4rem 0 #656565;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.sub-nav img {
+  display: block;
+  max-width: 100%;
+}
+
+.sub-nav a.sub-call-to-action {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -2rem;
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 160px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.sub-nav a.sub-call-to-action:hover {
+  text-decoration: none;
+}
+
+.sub-nav a.sub-call-to-action:after {
+  font-family: 'Ionicons';
+  content: "\f125";
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem 1.3rem;
+  width: 3.5rem;
+  height: 4rem;
+  background: #7bafd4;
+  box-shadow: 0 0.4rem 0 #c8deed;
+  border-radius: 0 0 .5rem .5rem;
+  border-radius: 0 0 .5rem 0;
+}
+
+@media (max-width: 50rem) {
+  .sub-nav a.sub-call-to-action {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .sub-nav a.sub-call-to-action:after {
+    padding: 2rem 4rem;
+    height: 6.5rem;
+  }
+}
+aside {
+  text-align: center;
+  background: #091725;
+  padding: 10rem;
+  max-height: 28rem;
+}
+
+aside h3 {
+  color: #7bafd4 !important;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+aside h3:after {
+  display: none;
+}
+
+aside p {
+  margin: 0 auto;
+  color: white !important;
+  max-width: 42rem;
+}
+
+section.partners {
+  padding-top: 10rem;
+  padding-bottom: 14rem;
+}
+
+section.partners .col-4 {
+  width: 33.33%;
+  margin: 0;
+}
+
+@media (max-width: 50rem) {
+  section.partners .col-4 {
+    width: 100%;
+    padding: 0;
+  }
+}
+section.partners h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+section.partners h2:after {
+  margin: 2rem auto;
+}
+
+section.partners h5 {
+  display: block;
+  text-align: center;
+  color: white;
+  max-height: 30px;
+  width: 100%;
+  padding: .5rem 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section.partners h5#cardinal-innovations {
+  background: #252525;
+}
+
+section.partners h5#ncdhhs {
+  background: #7bafd4;
+}
+
+section.partners h5#kbr {
+  background: #091725;
+}
+
+a.partner-link {
+  display: block;
+  width: 100%;
+  height: 19rem;
+  background-repeat: no-repeat !important;
+  background-size: 80% !important;
+  background-position: center !important;
+}
+
+a.partner-link#cardinal-innovations {
+  background: url("/images/logo_cardinal-innovations.png"), center #dedede;
+  background: url("/images/logo_cardinal-innovations.png"), center #dedede;
+}
+
+a.partner-link#ncdhhs {
+  background: url("/images/logo_ncdhhs.png"), center #dedede;
+  background: url("/images/logo_ncdhhs.png"), center #dedede;
+}
+
+a.partner-link#kbr {
+  background: url("/images/logo_kbr.png"), center #dedede;
+  background: url("/images/logo_kbr.png"), center #dedede;
+}
+
+@media (max-width: 50rem) {
+  a.partner-link {
+    background-size: 50% !important;
+    margin-bottom: 0;
+  }
+}
+footer {
+  display: block;
+  background: #252525;
+  color: white;
+  padding: 7rem 2rem 4rem 2rem;
+}
+
+@media (max-width: 50rem) {
+  footer .col-3 {
+    margin-top: 4rem;
+  }
+}
+footer a {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-family: "Gentium Basic", serif;
+  font-size: 1.6rem;
+  width: 100%;
+  color: #787878;
+}
+
+@media (max-width: 50rem) {
+  footer a {
+    font-size: 2rem;
+  }
+}
+footer a.logo {
+  display: block;
+  width: 100%;
+  background-size: 100% !important;
+}
+
+footer a.logo.cecmh {
+  background: url("/images/logo_cecmh.png") no-repeat center;
+  height: 4.5rem;
+}
+
+footer a.logo.unc {
+  background: url("/images/logo_unc.png") no-repeat center;
+  height: 7rem;
+}
+
+@media (max-width: 50rem) {
+  footer a.logo {
+    background-size: 70% !important;
+  }
+
+  footer a.logo.cecmh {
+    height: 8rem;
+  }
+
+  footer a.logo.unc {
+    height: 12rem;
+  }
+}
+/*== SASS MIX-INS ==*/
+/*===== GLOBAL STYLES =====*/
+html {
+  font-size: 62.5%;
+}
+
+main.content {
+  margin-top: -80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+span.hidden-text {
+  margin-left: -9999px;
+}
+
+/*=== BEGIN GLOBAL MEDIA QUERIES ===*/
+/* Smallest devices (phone, 768px and below) */
+/* Small devices (tablets, 768px to 992px) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */

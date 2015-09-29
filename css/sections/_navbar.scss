@@ -53,17 +53,17 @@ nav {
 
       .navbar-nav li a {
         @include display(border-box);
-        padding-left: 3rem;
-        margin-left: .8rem;
+        margin-left: 2rem;
         background-size: 20px !important;
         color: white !important;
   			border-top: 3px solid rgba(0,0,0,0); /* creates invisible border to remove animation */
   			margin-top: -3px; /* adjustment to make up for invisible border */
+        padding-bottom: 5px;
         @include transition(all $default-transition ease)
       }
 
           .navbar-nav li a:hover {
-    				@include transition(all $default-transition ease);
+            border-bottom: 1px solid white;
           }
 
           .navbar-nav li a i.icon {
