@@ -1,0 +1,83 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body>
+
+		{% include navbar.html %}
+
+    <!--========== BEGIN CONTENT ==========-->
+		<main class="content">
+
+			<!--===== BEGIN HERO =====-->
+			<section class="hero">
+				<div class="container">
+
+					<h1>Get in touch</h1>
+
+					<p class="subtitle">Send us a message to learn more or make a referral</p>
+
+				</div>
+			</section> <!-- end .hero -->
+
+			<!--===== BEGIN CONTACT =====-->
+			<section class="contact">
+				<div class="container">
+
+					<form>
+						<input type="text" name="first-name" required>
+						<label for="first-name"><i class="icon ion-person"></i>First name</label>
+						<input type="text" name="last-name">
+						<label for="last-name"><i class="icon ion-person"></i>Last name</label>
+						<input type="email" required>
+						<label for="email"><i class="icon ion-email"></i>E-mail address</label>
+						<textarea name="message"></textarea>
+						<label for="message"><i class="icon ion-chatbox-working"></i>Message</label>
+						<input class="btn" type="submit" value="Go">
+					</form> <!-- end form -->
+
+				</div>
+			</section> <!-- end .contact -->
+
+			<!--===== BEGIN EXPOSITION =====-->
+			<section class="exposition">
+				<div class="container">
+
+					<div class="col-6">
+						<h2>Lorem ipsum dolor sit amet</h2>
+						<p>Suspendisse diam metus, finibus a nisi tempor, dapibus rutrum ante. Integer at nibh neque. Pellentesque volutpat eleifend egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam mollis ligula lorem, ac finibus lacus venenatis non.</p>
+					</div> <!-- end .col-6 -->
+
+					<div class="col-6">
+						<h2>Praesent nisl massa</h2>
+						<p>Donec nec nulla non leo iaculis consequat. Phasellus rutrum leo non justo pulvinar, non sodales nunc iaculis. Cras lobortis tortor lacinia massa sollicitudin aliquam.</p>
+						<p>Mauris maximus a lectus at commodo. Praesent nec dignissim quam ipsum dipsum.</p>
+					</div> <!-- end .col-6 -->
+
+				</div>
+			</section> <!-- end .exposition -->
+
+			<!--========== BEGIN ASIDE ==========-->
+			<aside>
+				<div class="container">
+
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>Donec posuere dui augue, nec pretium quam interdum at.
+					Maecenas eu nunc purus. <em>Suspendisse potenti</em>.</p>
+
+				</div>
+			</aside> <!-- end aside -->
+
+		</main> <!-- end .content -->
+
+		{% include footer.html %}
+
+		{% include scripts.html %}
+
+	</body>
+
+</html>
