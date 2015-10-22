@@ -6,12 +6,17 @@ section.contact {
     position: relative;
     background: white;
     padding: $default-padding*3 $default-padding*2;
-    margin-top: -$default-padding*3;
+    margin-top: -$default-padding*4;
     z-index: 3;
   }
 
     form {
+      @include span-columns(6);
     }
+
+      form h2 {
+        margin-bottom: $default-padding*2;
+      }
 
       form input,
       form textarea,
@@ -35,7 +40,7 @@ section.contact {
         padding: 1rem;
         font-size: 1.6rem;
         font-weight: 300;
-        margin-bottom: 2rem;
+        //margin-bottom: 2rem;
       }
 
       form input:hover ~ form label { // not working!
@@ -45,10 +50,6 @@ section.contact {
         form label i {
           font-size: 1.8rem;
           margin-right: $default-padding/2;
-        }
-
-        form label[for="message"] {
-          margin-top: -5px;
         }
 
       form .btn {

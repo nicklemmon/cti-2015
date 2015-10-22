@@ -671,8 +671,22 @@ section.contact .container {
   position: relative;
   background: white;
   padding: 6rem 4rem;
-  margin-top: -6rem;
+  margin-top: -8rem;
   z-index: 3;
+}
+
+form {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+form:last-child {
+  margin-right: 0;
+}
+
+form h2 {
+  margin-bottom: 4rem;
 }
 
 form input,
@@ -695,7 +709,6 @@ form label {
   padding: 1rem;
   font-size: 1.6rem;
   font-weight: 300;
-  margin-bottom: 2rem;
 }
 
 form input:hover ~ form label {
@@ -705,10 +718,6 @@ form input:hover ~ form label {
 form label i {
   font-size: 1.8rem;
   margin-right: 1rem;
-}
-
-form label[for="message"] {
-  margin-top: -5px;
 }
 
 form .btn {
